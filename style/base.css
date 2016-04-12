@@ -1,0 +1,54 @@
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  background-color: #32ab9f;
+}
+
+/*TEXT STYLES
+=======================================*/
+p {
+  font-size: 1em;
+}
+
+p, li {
+  font-size:1em;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-size:1.999em;
+}
+
+h3 {
+  font-size:1.414em;
+}
+
+/*LINK STYLES
+=======================================*/
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: #0d31ff
+}
+
+a:hover, a:focus {
+  color: #0d31ff
+}
+
+a:visited {
+  color:#0d31ff;
+}
+
+@media screen and (min-width:900px) {
+
+  h1{
+    font-size:3.998em;
+  }
+
+}
